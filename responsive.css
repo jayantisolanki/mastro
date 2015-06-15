@@ -1,0 +1,43 @@
+/* ************* Media Queries Tablets ****************** */
+@media only screen and (max-width: 1169px) {
+
+}
+@media only screen and (max-width: 1023px) {
+
+}
+@media only screen and (max-width: 959px) {
+
+}
+@media only screen and (max-width: 819px) {
+
+}
+@media only screen and (max-width: 800px) {
+/*Responsive Table*/
+.tableOut table, .tableOut tr, .tableOut td, .tableOut td:before { display:block; text-align:left; border:none;	/* Converts a table, table row, table column and table column:before into a block element */ }
+.tableOut table, .tableOut tr .tableOut td:last-child { border-bottom:none; }
+.tableOut thead, .tableOut tr th { position:absolute;	/* Hides table head but not using display none */ top:-1000em; left:-1000em; }
+.tableOut tr { border:1px solid #eeeeee; border-bottom:2px solid #eeeeee;  margin:0 0 20px; }
+.tableOut tr td:nth-child(1) { /* first column of the row */ border-left:none;}
+.tableOut tr td:last-child { /* last column of the row */ border-right:none; }
+.tableOut tr:last-child .td, .tableOut td { /* Column in the last row and column */ border-bottom:1px solid #eeeeee; }
+.tableOut td:before { /* prints the value of data-label attribute before the column data */ font-weight:bold; padding-right:20px; line-height:27px; color:#174471; content:" "attr(data-label)"";	/* call the attribute value of data-label and adds a string // */ }
+.tableOut tbody {display:block;}
+.tableOut tr td {padding:5px 15px; width:auto !important;}
+}
+@media only screen and (max-width: 768px) {
+.r-tabs .r-tabs-nav {display: none;}
+.r-tabs .r-tabs-accordion-title {display: block;}
+}
+/* ************* Mobiles Media Queries ****************** */
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 639px) {
+
+}
+@media only screen and (max-width: 479px) {
+
+}
+@media only screen and (max-width: 359px) {
+
+}
